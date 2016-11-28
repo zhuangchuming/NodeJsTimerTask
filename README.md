@@ -1,5 +1,7 @@
 # NodeJsTimerTask
-类似于博客的定时发布功能模块，这是一个小项目，包括前端+nodejs后台
+类似于博客的定时发布功能模块，这是一个小项目，包括前端+nodejs后台。
+这个项目可以让你简单入门nodejs，以及react的简单使用。要看懂此项目，您需要先了解一下nodejs以及reactjs。
+
 以下是写这个项目的来源
 
 这是一个很小的项目，使用nodejs开发。
@@ -118,7 +120,7 @@
         port: 3306,
 
         database: 'nodejs_mysql',
-		
+
 
 七、使用步骤:
 
