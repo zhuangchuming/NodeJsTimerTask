@@ -23,9 +23,10 @@
 
 
 
-一、主要技术：后端用nodejs,前端用reactjs；
+一、主要技术：后端用nodejs,前端用reactjs;
 
 二、文件说明：
+
 	1、app 前端工程：
 
 		1）component渲染react页面需要用到的组件，eg：title.
