@@ -1,0 +1,50 @@
+.task_id{
+    line-height: 40px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.task_item{
+    background-color: darkorange;
+    float: right;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left: 10px;
+    line-height: 40px;
+    color: white;
+}
+.task_item_span{
+    float: right;
+    line-height: 40px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.title{
+    height: 70px;
+    background-color: #9E8BF5;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+.task_add{
+    float: right;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+
+}
+.task_back{
+    float: left;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+
+}
