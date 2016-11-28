@@ -25,13 +25,21 @@
 
 二、文件说明：
 1、app 前端工程：
-	1）component渲染react页面需要用到的组件，eg：title
-	2）css 属性文件
-	3）page 前端页面
-	4）util 经react封装的工具 eg:toast（仿安卓）
-	5）global 全局变量，公有方法
-	6）main.js react应用入口。webpack.config.js配置文件有说明
+
+	1）component渲染react页面需要用到的组件，eg：title.
+
+	2）css 属性文件.
+
+	3）page 前端页面.
+
+	4）util 经react封装的工具 eg:toast（仿安卓）.
+
+	5）global 全局变量，公有方法.
+
+	6）main.js react应用入口。webpack.config.js配置文件有说明.
+
 2、build是用webpack打包前端项目所产生 bundle.js
+
 3、dao是后端操作数据库：
 	1）、baseDao 创建数据库之类
 	2）、tasksSqlMapping 查询数据库的语句；
