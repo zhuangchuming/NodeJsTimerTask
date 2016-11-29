@@ -48,6 +48,10 @@
 
 	var _reactRouter = __webpack_require__(1);
 
+	/** * * * * * * * * * * * * * * *
+	 * 作者：庄楚明
+	 * 时间：2016.11.28
+	 * * * * * * * * * * * * * * * * */
 	var React = __webpack_require__(3);
 	var ReactDOM = __webpack_require__(88);
 
@@ -29274,6 +29278,10 @@
 
 	'use strict';
 
+	/** * * * * * * * * * * * * * * *
+	 * 作者：庄楚明
+	 * 时间：2016.11.28
+	 * * * * * * * * * * * * * * * * */
 	var React = __webpack_require__(3);
 	var gVar = __webpack_require__(255);
 	__webpack_require__(256);
@@ -29345,6 +29353,10 @@
 
 	/* WEBPACK VAR INJECTION */(function(global) {"use strict";
 
+	/** * * * * * * * * * * * * * * *
+	 * 作者：庄楚明
+	 * 时间：2016.11.28
+	 * * * * * * * * * * * * * * * * */
 	var gVar = {
 	    stopTaskList: [],
 	    publicTaskList: [],
@@ -29821,6 +29833,11 @@
 
 	"use strict";
 
+	/** * * * * * * * * * * * * * * *
+	 * 作者：庄楚明
+	 * 时间：2016.11.28
+	 * * * * * * * * * * * * * * * * */
+
 	__webpack_require__(263);
 
 	//提示框模块
@@ -29915,6 +29932,10 @@
 
 	'use strict';
 
+	/** * * * * * * * * * * * * * * *
+	 * 作者：庄楚明
+	 * 时间：2016.11.28
+	 * * * * * * * * * * * * * * * * */
 	var React = __webpack_require__(3);
 	__webpack_require__(266);
 	var gVar = __webpack_require__(255);
@@ -29956,6 +29977,7 @@
 	        }
 	        if (!gVar.strDateTime($('#public_time').val())) {
 	            toast("请输入有效的发布时间");
+	            return;
 	        } else {
 	            var settime = new Date($('#public_time').val()).getTime();
 	            if (new Date().getTime() > settime) {
@@ -29965,6 +29987,7 @@
 	        }
 	        if (!gVar.strDateTime($('#stop_time').val())) {
 	            toast("请输入有效的下架时间");
+	            return;
 	        } else {
 	            var settime = new Date($('#public_time').val()).getTime();
 	            var stoptime = new Date($('#stop_time').val()).getTime();
@@ -30091,6 +30114,10 @@
 
 	'use strict';
 
+	/** * * * * * * * * * * * * * * *
+	 * 作者：庄楚明
+	 * 时间：2016.11.28
+	 * * * * * * * * * * * * * * * * */
 	var React = __webpack_require__(3);
 	var gVar = __webpack_require__(255);
 	var TitleBar = __webpack_require__(254);
@@ -30323,6 +30350,10 @@
 
 	'use strict';
 
+	/** * * * * * * * * * * * * * * *
+	 * 作者：庄楚明
+	 * 时间：2016.11.28
+	 * * * * * * * * * * * * * * * * */
 	var React = __webpack_require__(3);
 	__webpack_require__(266);
 	var gVar = __webpack_require__(255);
@@ -30369,6 +30400,10 @@
 
 	'use strict';
 
+	/** * * * * * * * * * * * * * * *
+	 * 作者：庄楚明
+	 * 时间：2016.11.28
+	 * * * * * * * * * * * * * * * * */
 	var React = __webpack_require__(3);
 
 	var Task = __webpack_require__(271);
@@ -30412,6 +30447,11 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
+
+	/** * * * * * * * * * * * * * * *
+	 * 作者：庄楚明
+	 * 时间：2016.11.28
+	 * * * * * * * * * * * * * * * * */
 
 	var React = __webpack_require__(3);
 	__webpack_require__(256);
@@ -30493,6 +30533,11 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
+
+	/** * * * * * * * * * * * * * * *
+	 * 作者：庄楚明
+	 * 时间：2016.11.28
+	 * * * * * * * * * * * * * * * * */
 
 	var React = __webpack_require__(3);
 
