@@ -40,6 +40,7 @@ var AddPage = React.createClass({
             }
             if (!gVar.strDateTime($('#public_time').val())) {
                 toast("请输入有效的发布时间");
+                return;
             }else{
                 var settime = new Date($('#public_time').val()).getTime();
                 if(new Date().getTime() > settime ){
@@ -49,6 +50,7 @@ var AddPage = React.createClass({
             }
             if (!gVar.strDateTime($('#stop_time').val())) {
                 toast("请输入有效的下架时间");
+                return;
             }else{
                 var settime = new Date($('#public_time').val()).getTime();
                 var stoptime = new Date($('#stop_time').val()).getTime();
