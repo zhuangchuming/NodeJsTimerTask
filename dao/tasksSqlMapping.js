@@ -1,3 +1,7 @@
+/** * * * * * * * * * * * * * * *
+ * 作者：庄楚明
+ * 时间：2016.11.28
+ * * * * * * * * * * * * * * * * */
 var task = {
     insert:'INSERT INTO task(id, publicTime, stopTime, content, title, co_content, haspush, readCount, hasstop) VALUES(0,?,?,?,?,"",0,0,0)',
     // update:'update task set publicTime=?, stopTime=?, readCount=? where id=?',

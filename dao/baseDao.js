@@ -1,3 +1,7 @@
+/** * * * * * * * * * * * * * * *
+ * 作者：庄楚明
+ * 时间：2016.11.28
+ * * * * * * * * * * * * * * * * */
 var mysql = require('mysql');
 //要创建的数据库名
 var TEST_DATABASE = 'nodejs_mysql';

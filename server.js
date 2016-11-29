@@ -1,5 +1,8 @@
 // var http = require('http');
-
+/** * * * * * * * * * * * * * * *
+ * 作者：庄楚明
+ * 时间：2016.11.28
+ * * * * * * * * * * * * * * * * */
 var express = require('express');
 var router = express.Router();
 var app = express();

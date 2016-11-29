@@ -1,3 +1,7 @@
+/** * * * * * * * * * * * * * * *
+ * 作者：庄楚明
+ * 时间：2016.11.28
+ * * * * * * * * * * * * * * * * */
 var React = require('react');
 require('./../css/page.css')
 var gVar = require('../global.js');

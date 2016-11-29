@@ -1,4 +1,7 @@
-
+/** * * * * * * * * * * * * * * *
+ * 作者：庄楚明
+ * 时间：2016.11.28
+ * * * * * * * * * * * * * * * * */
 var fs = require('fs');
 var url = require('url');
 var taskDao = require('../dao/taskDao.js');

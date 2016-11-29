@@ -1,4 +1,7 @@
-
+/** * * * * * * * * * * * * * * *
+ * 作者：庄楚明
+ * 时间：2016.11.28
+ * * * * * * * * * * * * * * * * */
 var async = require('async');
 var $sql = require('./tasksSqlMapping');
 //  待发布队列，待下架队列
